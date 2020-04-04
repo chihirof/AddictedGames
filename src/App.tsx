@@ -1,24 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react';
+import Header from './components/Header'
+import GameList from './components/GameList'
 
-function App() {
+const title = "chihiroがハマってきたゲームたち"
+const description = "chihiroがハマってきたゲームを覚えている限りで紹介させてもらいます。"
+
+const App: FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header title={title} description={description}/>
+      <GameList />
     </div>
   );
 }
