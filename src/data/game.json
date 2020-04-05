@@ -2,37 +2,139 @@
 {
   "game": [
     {
-      "name": "ポケットモンスター緑"
+      "name": "ポケットモンスター 緑",
+      "hardware": "ゲームボーイ",
+      "url": "https://www.pokemon.co.jp/game/other/gb-rg/summary.html",
+      "release_date": "1996-02-27",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "ポケットモンスター金"
+      "name": "ポケットモンスター 金",
+      "hardware": "ゲームボーイ",
+      "url": "https://www.pokemon.co.jp/ex/VCKG/",
+      "release_date": "1999-11-21",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "ポケットモンスター銀"
+      "name": "ポケットモンスター 銀",
+      "hardware": "ゲームボーイ",
+      "url": "https://www.pokemon.co.jp/ex/VCKG/",
+      "release_date": "1999-11-21",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "ポケットモンスタークリスタル"
+      "name": "ポケットモンスター クリスタルバージョン",
+      "hardware": "ゲームボーイカラー",
+      "url": "https://www.pokemon.co.jp/game/other/gbc-crystal/",
+      "release_date": "2000-12-14",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "牧場物語"
+      "name": "ポケットモンスター サファイア",
+      "hardware": "ゲームボーイアドバンス",
+      "url": "https://www.pokemon.co.jp/game/gba/rs/",
+      "release_date": "2002-11-21",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "Hey Day"
+      "name": "ポケットモンスター リーフグリーン",
+      "hardware": "ゲームボーイアドバンス",
+      "url": "https://www.pokemon.co.jp/game/gba/fl/",
+      "release_date": "2004-01-29",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "ルーンファクトリー4"
+      "name": "ポケットモンスター エメラルド",
+      "hardware": "ゲームボーイアドバンス",
+      "url": "https://www.pokemon.co.jp/game/gba/emerald/",
+      "release_date": "2004-09-16",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "ファンタジーライフ"
+      "name": "ポケットモンスター X",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.pokemon.co.jp/ex/xy/",
+      "release_date": "2013-10-12",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "Minecraft"
+      "name": "ポケットモンスター アルファサファイア",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.pokemon.co.jp/ex/oras/",
+      "release_date": "2014-11-21",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "Fortnite"
+      "name": "ポケットモンスター ムーン",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.pokemon.co.jp/ex/sun_moon/",
+      "release_date": "2016-11-18",
+      "selling_agency": "任天堂株式会社"
     },
     {
-      "name": "どうぶつの森"
+      "name": "ポケットモンスター ウルトラムーン",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.pokemon.co.jp/ex/usum/",
+      "release_date": "2017-11-17",
+      "selling_agency": "任天堂株式会社"
+    },
+    {
+      "name": "ポケットモンスター ソード",
+      "hardware": "Nintendo Switch",
+      "url": "https://www.pokemon.co.jp/ex/sword_shield/?game_main002=msign",
+      "release_date": "2019-11-15",
+      "selling_agency": "任天堂株式会社"
+    },
+    {
+      "name": "牧場物語 つながる新天地",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.bokumono.com/sub/tsunagaru.php",
+      "release_date": "2014-02-27",
+      "selling_agency": "Marvelous"
+    },
+    {
+      "name": "牧場物語 ３つの里の大切な友だち",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.bokumono.com/sub/tomodachi.php",
+      "release_date": "2016-06-23",
+      "selling_agency": "Marvelous"
+    },
+    {
+      "name": "牧場物語 再会のミネラルタウン",
+      "hardware": "Nintendo Switch",
+      "url": "https://www.bokumono.com/sub/saikai.php",
+      "release_date": "2014-02-27",
+      "selling_agency": "Marvelous"
+    },
+    {
+      "name": "Hey Day",
+      "hardware": "スマートフォン",
+      "url": "https://apps.apple.com/jp/app/%E3%83%98%E3%82%A4-%E3%83%87%E3%82%A4-hay-day/id506627515",
+      "release_date": "-",
+      "selling_agency": "Supercell"
+    },
+    {
+      "name": "RuneFactory4",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.marv.jp/special/game/3ds/runefactory4/",
+      "release_date": "-",
+      "selling_agency": "Marvelous"
+    },
+    {
+      "name": "ファンタジーライフ",
+      "hardware": "ゲームボーイ"
+    },
+    {
+      "name": "Minecraft",
+      "hardware": "ゲームボーイ"
+    },
+    {
+      "name": "Fortnite",
+      "hardware": "ゲームボーイ"
+    },
+    {
+      "name": "どうぶつの森",
+      "hardware": "ゲームボーイ"
     }
   ]
 }
