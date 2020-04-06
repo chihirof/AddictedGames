@@ -121,20 +121,53 @@
       "selling_agency": "Marvelous"
     },
     {
-      "name": "ファンタジーライフ",
-      "hardware": "ゲームボーイ"
+      "name": "新･ロロナのアトリエ はじまりの物語 ～アーランドの錬金術士～",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.nintendo.co.jp/titles/50010000032955",
+      "release_date": "2015-06-04",
+      "selling_agency": "コーエーテクモゲームス"
+    },
+    {
+      "name": "ルルアのアトリエ ～アーランドの錬金術士４～",
+      "hardware": "Nintendo Switch",
+      "url": "https://ec.nintendo.com/JP/ja/titles/70010000017534",
+      "release_date": "2019-03-20",
+      "selling_agency": "コーエーテクモゲームス"
+    },
+    {
+      "name": "ファンタジーライフ LINK!",
+      "hardware": "ニンテンドー3DS",
+      "url": "https://www.nintendo.co.jp/titles/50010000015015",
+      "release_date": "2013-07-25",
+      "selling_agency": "レベルファイブ"
     },
     {
       "name": "Minecraft",
-      "hardware": "ゲームボーイ"
+      "hardware": "Nintendo Switch",
+      "url": "https://ec.nintendo.com/JP/ja/titles/70010000000965",
+      "release_date": "2018-06-21",
+      "selling_agency": "コーエーテクモゲームス"
     },
     {
-      "name": "Fortnite",
-      "hardware": "ゲームボーイ"
+      "name": "Forager",
+      "hardware": "Nintendo Switch",
+      "url": "https://ec.nintendo.com/JP/ja/titles/70010000013005",
+      "release_date": "2019-07-30",
+      "selling_agency": "Humble Bundle"
     },
     {
-      "name": "どうぶつの森",
-      "hardware": "ゲームボーイ"
+      "name": "フォートナイト バトルロイヤル",
+      "hardware": "Nintendo Switch",
+      "url": "https://ec.nintendo.com/JP/ja/titles/70010000010193",
+      "release_date": "2018-06-13",
+      "selling_agency": "Epic Games"
+    },
+    {
+      "name": "あつまれ どうぶつの森",
+      "hardware": "Nintendo Switch",
+      "url": "https://www.nintendo.co.jp/switch/acbaa/products/soft.html",
+      "release_date": "2020-03-20",
+      "selling_agency": "任天堂株式会社"
     }
   ]
 }
