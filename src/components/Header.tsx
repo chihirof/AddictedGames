@@ -5,9 +5,13 @@ interface HeaderProp {
   description: string
 }
 
+const headerStyle = {
+  height: 150
+}
+
 const Header:FC<HeaderProp> = (headerProp) => {
   return (
-    <div>
+    <div style={headerStyle}>
       <header>
         <h1>{headerProp.title}</h1>
         <p>{headerProp.description}</p>
