@@ -6,21 +6,24 @@
       "hardware": "ゲームボーイ",
       "url": "https://www.pokemon.co.jp/game/other/gb-rg/summary.html",
       "release_date": "1996-02-27",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "初めて買ったゲーム。小学校1年生が2年生の時に、子供の日にゲームボーイと合わせて買ってもらった。ゲームボーイもソフトも中古だった。ゲームボーイは黄色。とにかくめちゃくちゃ面白かった。"
     },
     {
       "name": "ポケットモンスター 金",
       "hardware": "ゲームボーイ",
       "url": "https://www.pokemon.co.jp/ex/VCKG/",
       "release_date": "1999-11-21",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "金、銀はポケモンの中でも最高傑作。新しくポケモンが増えて、しかも増えたポケモンがまじで可愛い。ミルタンクの強さに泣いた。時間の概念も入って、曜日ごとにイベントが発生していた。"
     },
     {
       "name": "ポケットモンスター 銀",
       "hardware": "ゲームボーイ",
       "url": "https://www.pokemon.co.jp/ex/VCKG/",
       "release_date": "1999-11-21",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "金、銀はポケモンの中でも最高傑作。私一人で留守番をする代わりに金銀どっちも欲しいと交渉して買ってもらった。"
     },
     {
       "name": "ポケットモンスター クリスタルバージョン",
@@ -41,7 +44,9 @@
       "hardware": "ゲームボーイアドバンス",
       "url": "https://www.pokemon.co.jp/game/gba/fl/",
       "release_date": "2004-01-29",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "あまり印象にない。"
+    
     },
     {
       "name": "ポケットモンスター エメラルド",
@@ -55,7 +60,8 @@
       "hardware": "ニンテンドー3DS",
       "url": "https://www.pokemon.co.jp/ex/xy/",
       "release_date": "2013-10-12",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "発売後、だいぶ経ってから買ってやった。当時はゲームしたい欲がすごい時で、過去作やってみたくてやった。面白かった。"
     },
     {
       "name": "ポケットモンスター アルファサファイア",
@@ -83,7 +89,8 @@
       "hardware": "Nintendo Switch",
       "url": "https://www.pokemon.co.jp/ex/sword_shield/?game_main002=msign",
       "release_date": "2019-11-15",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "面白かった。"
     },
     {
       "name": "牧場物語 つながる新天地",
@@ -118,7 +125,8 @@
       "hardware": "ニンテンドー3DS",
       "url": "https://www.marv.jp/special/game/3ds/runefactory4/",
       "release_date": "-",
-      "selling_agency": "Marvelous"
+      "selling_agency": "Marvelous",
+      "impression": "文字通り、寝食わすれて没頭した。まじで面白い。走るだけで走りのレベルが上がる。レオンのイベントがなかなか発生しなかったけどやっと発生したときは雄叫びものだった。まだクリアしてない。"
     },
     {
       "name": "新･ロロナのアトリエ はじまりの物語 ～アーランドの錬金術士～",
