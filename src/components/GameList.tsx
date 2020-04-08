@@ -7,8 +7,8 @@ const GameList: FC = () => {
   return (
     <div>
       <Item.Group>
-        { games.game.map(game => (
-          <Item>
+        { games.game.map((game, index) => (
+          <Item key={index}>
             <Item.Content>
               <Item.Header>{game.name}</Item.Header>
               <Item.Meta>{game.release_date} {game.selling_agency}</Item.Meta>
