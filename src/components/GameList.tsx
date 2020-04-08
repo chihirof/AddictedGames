@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Item } from 'semantic-ui-react'
+import { Item, Divider } from 'semantic-ui-react'
 import games from '../data/game.json'
 
 const GameList: FC = () => {
@@ -13,6 +13,7 @@ const GameList: FC = () => {
               <Item.Header>{game.name}</Item.Header>
               <Item.Meta>{game.release_date} {game.selling_agency}</Item.Meta>
               <Item.Meta>{game.hardware}</Item.Meta>
+              <Divider />
             </Item.Content>
           </Item>
         ))}
