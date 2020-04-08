@@ -15,7 +15,7 @@
       "url": "https://www.pokemon.co.jp/ex/VCKG/",
       "release_date": "1999-11-21",
       "selling_agency": "任天堂株式会社",
-      "impression": "金、銀はポケモンの中でも最高傑作。新しくポケモンが増えて、しかも増えたポケモンがまじで可愛い。ミルタンクの強さに泣いた。時間の概念も入って、曜日ごとにイベントが発生していた。"
+      "impression": "金、銀はポケモンの中でも最高傑作。新しくポケモンが増えて、しかも増えたポケモンがまじで可愛い。アカネのミルタンクの強さに泣いた。時間の概念も入って、曜日ごとにイベントが発生していた。ヒノアラシとチコリータが好きすぎた。今思い出してもあの面白さに震える。"
     },
     {
       "name": "ポケットモンスター 銀",
@@ -23,14 +23,15 @@
       "url": "https://www.pokemon.co.jp/ex/VCKG/",
       "release_date": "1999-11-21",
       "selling_agency": "任天堂株式会社",
-      "impression": "金、銀はポケモンの中でも最高傑作。私一人で留守番をする代わりに金銀どっちも欲しいと交渉して買ってもらった。"
+      "impression": "金、銀はポケモンの中でも最高傑作。私一人で留守番をする代わりに金銀どっちも欲しいと親に交渉して買ってもらった。今思えば、たった一回の一人での留守番に対しては高額なご褒美だった。だが、このときはなぜか妹と弟は連れて行ってもらって、私だけ留守番だったので、親も拒否仕切れなかったのだろう。"
     },
     {
       "name": "ポケットモンスター クリスタルバージョン",
       "hardware": "ゲームボーイカラー",
       "url": "https://www.pokemon.co.jp/game/other/gbc-crystal/",
       "release_date": "2000-12-14",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "中古で謎に買った。かなりハマった。確か中学生の時。夜中にすごいやっていた。"
     },
     {
       "name": "ポケットモンスター サファイア",
@@ -68,7 +69,8 @@
       "hardware": "ニンテンドー3DS",
       "url": "https://www.pokemon.co.jp/ex/oras/",
       "release_date": "2014-11-21",
-      "selling_agency": "任天堂株式会社"
+      "selling_agency": "任天堂株式会社",
+      "impression": "数年ぶりにゲームがしたくなって買った。ヨドバシの店員さんに「一番新しいポケモンってどれですか？」って聞いて買ったやつ。絵の綺麗さに感動しつつもあまり面白くなかった。"
     },
     {
       "name": "ポケットモンスター ムーン",
@@ -104,7 +106,8 @@
       "hardware": "ニンテンドー3DS",
       "url": "https://www.bokumono.com/sub/tomodachi.php",
       "release_date": "2016-06-23",
-      "selling_agency": "Marvelous"
+      "selling_agency": "Marvelous",
+      "impression": "めちゃくちゃハマった。"
     },
     {
       "name": "牧場物語 再会のミネラルタウン",
@@ -118,7 +121,8 @@
       "hardware": "スマートフォン",
       "url": "https://apps.apple.com/jp/app/%E3%83%98%E3%82%A4-%E3%83%87%E3%82%A4-hay-day/id506627515",
       "release_date": "-",
-      "selling_agency": "Supercell"
+      "selling_agency": "Supercell",
+      "impression": "なぞに数年間スマホからアンインストールされないアプリ。時々思い出した時に狂ったようにハマる。すでに5年以上はやっている。"
     },
     {
       "name": "RuneFactory4",
@@ -126,14 +130,15 @@
       "url": "https://www.marv.jp/special/game/3ds/runefactory4/",
       "release_date": "-",
       "selling_agency": "Marvelous",
-      "impression": "文字通り、寝食わすれて没頭した。まじで面白い。走るだけで走りのレベルが上がる。レオンのイベントがなかなか発生しなかったけどやっと発生したときは雄叫びものだった。まだクリアしてない。"
+      "impression": "文字通り、寝食わすれて没頭した。毎日深夜2時までやっていた。まじで面白い。走るだけで走りのレベルが上がる。レオンのイベントがなかなか発生しなかったけどやっと発生したときは雄叫びものだった。まだクリアしてない。"
     },
     {
       "name": "新･ロロナのアトリエ はじまりの物語 ～アーランドの錬金術士～",
       "hardware": "ニンテンドー3DS",
       "url": "https://www.nintendo.co.jp/titles/50010000032955",
       "release_date": "2015-06-04",
-      "selling_agency": "コーエーテクモゲームス"
+      "selling_agency": "コーエーテクモゲームス",
+      "impression": "文字通り、寝食わすれて没頭した。3回周回した。"
     },
     {
       "name": "ルルアのアトリエ ～アーランドの錬金術士４～",
@@ -154,21 +159,24 @@
       "hardware": "Nintendo Switch",
       "url": "https://ec.nintendo.com/JP/ja/titles/70010000000965",
       "release_date": "2018-06-21",
-      "selling_agency": "コーエーテクモゲームス"
+      "selling_agency": "コーエーテクモゲームス",
+      "impression": "Youtubeの実況をみてハマった。"
     },
     {
       "name": "Forager",
       "hardware": "Nintendo Switch",
       "url": "https://ec.nintendo.com/JP/ja/titles/70010000013005",
       "release_date": "2019-07-30",
-      "selling_agency": "Humble Bundle"
+      "selling_agency": "Humble Bundle",
+      "impression": "夏休み暇だから何かしたいなと思って見つけたやつ。夏休み期間ずっとやっていた。"
     },
     {
       "name": "フォートナイト バトルロイヤル",
       "hardware": "Nintendo Switch",
       "url": "https://ec.nintendo.com/JP/ja/titles/70010000010193",
       "release_date": "2018-06-13",
-      "selling_agency": "Epic Games"
+      "selling_agency": "Epic Games",
+      "impression": "人生初、こういう撃ち合うゲームにハマった。こういうゲームは元々苦手だったけど、これもYoutubeの実況見てハマった。抵抗なくできているのは、多分やられる時にぐろくないからだと思われる。"
     },
     {
       "name": "あつまれ どうぶつの森",
