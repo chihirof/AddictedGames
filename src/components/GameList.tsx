@@ -13,6 +13,7 @@ const GameList: FC = () => {
               <Item.Header>{game.name}</Item.Header>
               <Item.Meta>{game.release_date} {game.selling_agency}</Item.Meta>
               <Item.Meta>{game.hardware}</Item.Meta>
+              <Item.Description>{game.impression}</Item.Description>
               <Divider />
             </Item.Content>
           </Item>
