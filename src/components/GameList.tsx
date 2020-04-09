@@ -10,7 +10,7 @@ const GameList: FC = () => {
         { games.game.map((game, index) => (
           <Item key={index}>
             <Item.Content>
-              <Item.Header>{game.name}</Item.Header>
+              <Item.Header as="a" href={game.url} target="_target">{game.name}</Item.Header>
               <Item.Meta>{game.release_date} {game.selling_agency}</Item.Meta>
               <Item.Meta>{game.hardware}</Item.Meta>
               <Item.Description>{game.impression}</Item.Description>
