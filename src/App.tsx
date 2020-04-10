@@ -30,13 +30,13 @@ const App: FC = () => {
       <Responsive minWidth={768}>
         <div style={appStyle.container.pc}>
           <Header title={title} description={description}/>
-          <GameList />
+          <GameList items={games}/>
         </div>
       </Responsive>
       <Responsive maxWidth={767}>
       <div style={appStyle.container.phone}>
         <Header title={title} description={description}/>
-        <GameList />
+        <GameList items={games}/>
       </div>
     </Responsive>
   </div>
