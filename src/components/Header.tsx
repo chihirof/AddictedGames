@@ -1,4 +1,5 @@
 import React, {FC} from 'react';
+import {Segment} from 'semantic-ui-react'
 
 interface HeaderProp {
   title: string,
@@ -14,7 +15,9 @@ const Header:FC<HeaderProp> = (headerProp) => {
     <div style={headerStyle}>
       <header>
         <h1>{headerProp.title}</h1>
-        <p>{headerProp.description}</p>
+        <Segment>
+          <p>{headerProp.description}</p>
+        </Segment>
       </header>
     </div> );
 }

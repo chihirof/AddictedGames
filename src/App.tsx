@@ -2,9 +2,10 @@ import React, { FC } from 'react';
 import Header from './components/Header'
 import GameList from './components/GameList'
 import { Responsive } from 'semantic-ui-react'
+import games from './data/game.json'
 
-const title = "chihiroがハマってきたゲームたち"
-const description = "chihiroがハマってきたゲームを覚えている限りで紹介させてもらいます。"
+const title = "chihiroがハマってきたものたち"
+const description = "chihiroがハマってきたものたちを覚えている限りで紹介させてもらいます。"
 
 const appStyle = {
   container: {
