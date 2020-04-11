@@ -1,13 +1,15 @@
 import React, { FC } from 'react';
-import Header from './components/Header'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './components/Home'
 import GameList from './components/GameList'
-import { Responsive } from 'semantic-ui-react'
 import games from './data/game.json'
+import { Responsive } from 'semantic-ui-react';
 
-const title = "chihiroがハマってきたものたち"
-const description = "chihiroがハマってきたものたちを覚えている限りで紹介させてもらいます。"
-
-const appStyle = {
+const homeStyle = {
   container: {
     pc: {
       width: 750,
@@ -27,20 +29,32 @@ const appStyle = {
 
 const App: FC = () => {
   return (
-    <div>
+    <Router>
       <Responsive minWidth={768}>
-        <div style={appStyle.container.pc}>
-          <Header title={title} description={description}/>
+        <div style={homeStyle.container.pc}>
+        <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/game">
           <GameList items={games}/>
+        </Route>
+      </Switch> 
         </div>
       </Responsive>
       <Responsive maxWidth={767}>
-      <div style={appStyle.container.phone}>
-        <Header title={title} description={description}/>
-        <GameList items={games}/>
-      </div>
-    </Responsive>
-  </div>
+        <div style={homeStyle.container.phone}>
+        <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/game">
+          <GameList items={games}/>
+        </Route>
+      </Switch>
+        </div>
+      </Responsive>
+    </Router>
   );
 }
 
