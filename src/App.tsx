@@ -6,7 +6,9 @@ import {
 } from "react-router-dom";
 import Home from './components/Home'
 import GameList from './components/GameList'
+import ComicList from './components/ComicList'
 import games from './data/game.json'
+import comics from './data/comic.json'
 import { Responsive } from 'semantic-ui-react';
 
 const homeStyle = {
@@ -39,6 +41,9 @@ const App: FC = () => {
         <Route path="/game">
           <GameList items={games}/>
         </Route>
+        <Route path="/comic">
+          <ComicList items={comics}/>
+        </Route>
       </Switch> 
         </div>
       </Responsive>
@@ -50,6 +55,9 @@ const App: FC = () => {
         </Route>
         <Route path="/game">
           <GameList items={games}/>
+        </Route>
+        <Route path="/comic">
+          <ComicList items={comics}/>
         </Route>
       </Switch>
         </div>
