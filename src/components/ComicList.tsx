@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import { Item, Divider } from 'semantic-ui-react'
+import React, {FC} from 'react';
+import {Item, Divider} from 'semantic-ui-react'
 
 interface ItemListProp {
   items: {comic:{name:string, author:string, url:string, release_date:string, publisher:string, impression?:string}[]}

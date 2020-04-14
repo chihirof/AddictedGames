@@ -1,7 +1,5 @@
 import React, {FC} from 'react';
-import {
-  Link
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {Segment} from 'semantic-ui-react'
 
 const title = "chihiroがハマってきたものたち"
