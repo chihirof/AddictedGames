@@ -10,6 +10,7 @@ import ComicList from './components/ComicList'
 import games from './data/game.json'
 import comics from './data/comic.json'
 import { Responsive } from 'semantic-ui-react';
+import Header from './components/Header'
 
 const homeStyle = {
   container: {
@@ -33,6 +34,7 @@ const App: FC = () => {
   return (
     <Router>
       <Responsive minWidth={768}>
+        <Header />
         <div style={homeStyle.container.pc}>
         <Switch>
         <Route exact path="/">
@@ -48,6 +50,7 @@ const App: FC = () => {
         </div>
       </Responsive>
       <Responsive maxWidth={767}>
+        <Header />
         <div style={homeStyle.container.phone}>
         <Switch>
         <Route exact path="/">
