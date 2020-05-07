@@ -13,20 +13,21 @@ import games from './data/game.json'
 import comics from './data/comic.json'
 
 const homeStyle = {
+  pc: {
+    width: 750,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: 40,
+    marginBottom: 100
+  },
+  phone: {
+    marginLeft: 15,
+    marginRight: 15,
+    marginTop: 40,
+    marginBottom: 100
+  },
   container: {
-    pc: {
-      width: 750,
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      marginTop: 100,
-      marginBottom: 100
-    },
-    phone: {
-      marginLeft: 15,
-      marginRight: 15,
-      marginTop: 100,
-      marginBottom: 100
-    }
+    paddingTop: 30
   }
 }
 
@@ -34,35 +35,39 @@ const App: FC = () => {
   return (
     <Router>
       <Responsive minWidth={768}>
-        <Header />
-        <div style={homeStyle.container.pc}>
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/game">
-              <GameList items={games}/>
-            </Route>
-            <Route path="/comic">
-              <ComicList items={comics}/>
-            </Route>
-          </Switch> 
+        <div style={homeStyle.pc}>
+          <Header />
+          <div style={homeStyle.container}>
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="/game">
+                <GameList items={games}/>
+              </Route>
+              <Route path="/comic">
+                <ComicList items={comics}/>
+              </Route>
+            </Switch> 
+          </div>
         </div>
       </Responsive>
       <Responsive maxWidth={767}>
-        <Header />
-        <div style={homeStyle.container.phone}>
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/game">
-              <GameList items={games}/>
-            </Route>
-            <Route path="/comic">
-              <ComicList items={comics}/>
-            </Route>
-          </Switch>
+        <div style={homeStyle.phone}>
+          <Header />
+          <div style={homeStyle.container}>
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="/game">
+                <GameList items={games}/>
+              </Route>
+              <Route path="/comic">
+                <ComicList items={comics}/>
+              </Route>
+            </Switch>
+          </div>
         </div>
       </Responsive>
     </Router>
